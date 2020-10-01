@@ -60,7 +60,7 @@ class _homepageState extends State<homepage> {
                 Container(
                   padding: EdgeInsets.all(20.0),
                   child: Text(
-                    "Description rfru3foygoi3rfcgy3frcyugo3frcdogyu3rdcexfyogu3crf",
+                    "According to Ayurveda human body is governed primarily by three Doshas:- \n           VATA ,PITTA, KAPHA \n    Analyze your dosha simply by \n                      answering few questions.",
                     style: TextStyle(
                         fontSize: 15.0, color: Colors.red, fontFamily: "Alike"),
                   ),
@@ -79,6 +79,9 @@ class _homepageState extends State<homepage> {
         [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
 
     return Scaffold(
+      drawer: Drawer(
+        
+      ),
       appBar: AppBar(
         title: Text(
           "Quizzerrr",
@@ -98,3 +101,4 @@ class _homepageState extends State<homepage> {
     );
   }
 }
+//NEW MODIFIED QUESTIONS
